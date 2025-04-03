@@ -1,28 +1,37 @@
-# Google Cloud Data Analytics Project
+Sales Data Processing Pipeline 🚀
 
-This repository contains code and configuration files for Google Cloud Data Analytics Project.This project demonstrates the integration of several GCP services to create an efficient and automated data pipeline for sales data. We'll show you how to:
+A scalable data pipeline for processing and analyzing sales data using Google Cloud Platform (GCP), Python, and BigQuery. This project automates data ingestion, transformation, and visualization to enable real-time business insights.
 
+📌 Features
+✅ Web-Based Upload – Built using Flask, allowing users to upload sales data files.
+✅ Cloud Storage – Uploaded files are stored securely in Google Cloud Storage (GCS).
+✅ Automated ETL – Google Cloud Functions trigger ETL processing upon file upload.
+✅ BigQuery Integration – Stores and processes structured sales data efficiently.
+✅ Looker Studio Dashboards – Interactive reports for sales trends and business insights.
 
-Refer youtube Video for this project
- [![YouTube](https://img.shields.io/badge/YouTube-Video-red)](https://youtu.be/_CQCOusfGrs)
+🔧 Tech Stack
+Cloud: Google Cloud Platform (GCP) – GCS, BigQuery, Cloud Functions
 
+Data Processing: Python (Pandas, Flask), SQL
 
-![image](https://github.com/vishal-bulbule/sales-data-pipeline-project/assets/143475073/530f2c9e-945c-414c-8c85-5b489e92360e)
+Automation: Cloud Pub/Sub, Cloud Scheduler
 
+Visualization: Looker Studio
 
+🚀 Setup & Installation
+1️⃣ Clone the repository:
 
-## Overview
+bash
+Copy
+Edit
+git clone https://github.com/your-username/sales-data-pipeline.git
+cd sales-data-pipeline
+2️⃣ Install dependencies:
 
-1. **Web Portal**: Built with Python Flask to allow users to upload sales data files.
-2. **Storage**: Uploaded files are stored in a GCS bucket.
-3. **Cloud Function**: Automatically triggered when a file is uploaded to the GCS bucket, extracts data from the file, and loads it into BigQuery.
-4. **ETL Process**: Extract, Transform, Load process implemented to handle data from raw upload to processed state.
-5. **Reporting**: Summary views and dashboards in Looker Studio for key metrics, with filtering and drill-down capabilities.
-
-
-
-![image](https://github.com/vishal-bulbule/sales-data-pipeline-project/assets/143475073/613ef050-9538-4a87-98f5-95694e87455e)
-
-## Architecture
-
-![image](https://github.com/vishal-bulbule/sales-data-pipeline-project/assets/143475073/7ec3e2ec-f981-4fe4-9b3e-2c48dcbcdf0a)
+bash
+Copy
+Edit
+pip install -r requirements.txt
+3️⃣ Set up GCP credentials and configure .env file.
+4️⃣ Deploy Cloud Functions and test data upload.
+5️⃣ View interactive dashboards on Looker Studio.
