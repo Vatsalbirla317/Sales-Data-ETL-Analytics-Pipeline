@@ -26,12 +26,16 @@ Copy
 Edit
 git clone https://github.com/your-username/sales-data-pipeline.git
 cd sales-data-pipeline
+
 2️⃣ Install dependencies:
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
+
 3️⃣ Set up GCP credentials and configure .env file.
+
 4️⃣ Deploy Cloud Functions and test data upload.
+
 5️⃣ View interactive dashboards on Looker Studio.
